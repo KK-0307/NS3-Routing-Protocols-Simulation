@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  cis5530:
+    build: .
+    image: cis5530
+    environment:
+      - TERM=xterm-256color
+    volumes:
+      - .:/home/cis5530
