@@ -57,7 +57,7 @@ chmod u+x waf
 ./waf --run "simulator-main --routing=<NS3/LS/DV> --scenario=./scratch/scenarios/<SCENARIO_FILE_NAME>.sce --inet-topo=./scratch/topologies/<TOPOLOGY_FILE_NAME>.topo --project=<1/2>"
 ```
 
-###Troubleshooting
+### Troubleshooting
 If you encounter compilation errors, clear the build cache using:
 ```bash
 ./waf distclean
